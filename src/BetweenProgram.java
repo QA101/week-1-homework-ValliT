@@ -1,7 +1,7 @@
 
 public class BetweenProgram {
 
-	/*
+	/* Developed by : ValliT
 	 * Write a program that determine if a number x is between 2 numbers y and z
 	 * if x is between y and z, print TRUE otherwise print FALSE
 	 * 
@@ -13,8 +13,20 @@ public class BetweenProgram {
 	 * 
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		int x = 150;
+		int z = 200;
+		int y = 100;
+		
+		if  (((x > y) && (x < z))  || ((x > z) && (x < y))) 
+		{
+			System.out.println("True");
+			
+		}
+		else 
+		{
+			System.out.println("False");
+		}
 	}
 
 }
